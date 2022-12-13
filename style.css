@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+
+    background-color: hsl(0, 45%, 20%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: hsl(0, 45%, 20%);
+    font-weight: bold;
+    color: white;
+    padding: 25px 10px;
+    margin-bottom: 15px;
+}
+
+.container{
+
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 40px 20px;
+    width: 30vw;
+    height: 50vh;
+
+}
+
+.container input{
+
+    padding: 10px 35px;
+    margin-bottom: 15px;
+}
+
+.container #getDay{
+
+    background-color: cadetblue;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px 50px;
+    cursor: pointer;
+    
+}
+
+.container #getDay:hover{
+
+scale: 0.93;
+}
+
+.container #result{
+
+    margin-top: 30px;
+}
+
+.container h2{
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: coral;
+    padding: 20px 30px;
+}

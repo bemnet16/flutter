@@ -70,3 +70,7 @@ scale: 0.93;
     color: coral;
     padding: 20px 30px;
 }
+
+@media (max-size:800px) {
+    
+}
